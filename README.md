@@ -99,4 +99,3 @@ scans are engineering evidence, not adoption metrics or confirmed vulnerabilitie
 ## License
 
 MIT. See [LICENSE](LICENSE).
-

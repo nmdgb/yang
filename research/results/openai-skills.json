@@ -1,0 +1,681 @@
+{
+  "tool": "agent-skill-audit",
+  "version": "0.2.0",
+  "files_scanned": 704,
+  "entries_seen": 1031,
+  "excluded_entries": 80,
+  "findings": [
+    {
+      "rule": "ASA005",
+      "severity": "medium",
+      "path": "skills/.curated/cli-creator/SKILL.md",
+      "line": 74,
+      "kind": "documentation",
+      "message": "Reference to credentials or sensitive local files"
+    },
+    {
+      "rule": "ASA005",
+      "severity": "medium",
+      "path": "skills/.curated/cloudflare-deploy/references/agents-sdk/configuration.md",
+      "line": 34,
+      "kind": "documentation",
+      "message": "Reference to credentials or sensitive local files"
+    },
+    {
+      "rule": "ASA005",
+      "severity": "medium",
+      "path": "skills/.curated/cloudflare-deploy/references/agents-sdk/configuration.md",
+      "line": 53,
+      "kind": "documentation",
+      "message": "Reference to credentials or sensitive local files"
+    },
+    {
+      "rule": "ASA005",
+      "severity": "medium",
+      "path": "skills/.curated/cloudflare-deploy/references/ai-gateway/README.md",
+      "line": 40,
+      "kind": "documentation",
+      "message": "Reference to credentials or sensitive local files"
+    },
+    {
+      "rule": "ASA005",
+      "severity": "medium",
+      "path": "skills/.curated/cloudflare-deploy/references/ai-gateway/README.md",
+      "line": 69,
+      "kind": "documentation",
+      "message": "Reference to credentials or sensitive local files"
+    },
+    {
+      "rule": "ASA005",
+      "severity": "medium",
+      "path": "skills/.curated/cloudflare-deploy/references/ai-gateway/configuration.md",
+      "line": 29,
+      "kind": "documentation",
+      "message": "Reference to credentials or sensitive local files"
+    },
+    {
+      "rule": "ASA005",
+      "severity": "medium",
+      "path": "skills/.curated/cloudflare-deploy/references/ai-gateway/configuration.md",
+      "line": 58,
+      "kind": "documentation",
+      "message": "Reference to credentials or sensitive local files"
+    },
+    {
+      "rule": "ASA005",
+      "severity": "medium",
+      "path": "skills/.curated/cloudflare-deploy/references/ai-gateway/configuration.md",
+      "line": 99,
+      "kind": "documentation",
+      "message": "Reference to credentials or sensitive local files"
+    },
+    {
+      "rule": "ASA005",
+      "severity": "medium",
+      "path": "skills/.curated/cloudflare-deploy/references/ai-gateway/sdk-integration.md",
+      "line": 16,
+      "kind": "documentation",
+      "message": "Reference to credentials or sensitive local files"
+    },
+    {
+      "rule": "ASA005",
+      "severity": "medium",
+      "path": "skills/.curated/cloudflare-deploy/references/ai-gateway/sdk-integration.md",
+      "line": 50,
+      "kind": "documentation",
+      "message": "Reference to credentials or sensitive local files"
+    },
+    {
+      "rule": "ASA005",
+      "severity": "medium",
+      "path": "skills/.curated/cloudflare-deploy/references/sandbox/configuration.md",
+      "line": 85,
+      "kind": "documentation",
+      "message": "Reference to credentials or sensitive local files"
+    },
+    {
+      "rule": "ASA005",
+      "severity": "medium",
+      "path": "skills/.curated/cloudflare-deploy/references/sandbox/gotchas.md",
+      "line": 150,
+      "kind": "documentation",
+      "message": "Reference to credentials or sensitive local files"
+    },
+    {
+      "rule": "ASA007",
+      "severity": "medium",
+      "path": "skills/.curated/cloudflare-deploy/references/sandbox/gotchas.md",
+      "line": 176,
+      "kind": "documentation",
+      "message": "Shell execution or dynamically evaluated code"
+    },
+    {
+      "rule": "ASA001",
+      "severity": "high",
+      "path": "skills/.curated/cloudflare-deploy/references/sandbox/patterns.md",
+      "line": 40,
+      "kind": "documentation",
+      "message": "Remote content piped into an interpreter"
+    },
+    {
+      "rule": "ASA005",
+      "severity": "medium",
+      "path": "skills/.curated/cloudflare-deploy/references/sandbox/patterns.md",
+      "line": 200,
+      "kind": "documentation",
+      "message": "Reference to credentials or sensitive local files"
+    },
+    {
+      "rule": "ASA008",
+      "severity": "medium",
+      "path": "skills/.curated/cloudflare-deploy/references/workers-for-platforms/configuration.md",
+      "line": 131,
+      "kind": "documentation",
+      "message": "Upload or HTTP write requires destination review"
+    },
+    {
+      "rule": "ASA008",
+      "severity": "medium",
+      "path": "skills/.curated/cloudflare-deploy/references/workflows/api.md",
+      "line": 176,
+      "kind": "documentation",
+      "message": "Upload or HTTP write requires destination review"
+    },
+    {
+      "rule": "ASA008",
+      "severity": "medium",
+      "path": "skills/.curated/cloudflare-deploy/references/workflows/api.md",
+      "line": 182,
+      "kind": "documentation",
+      "message": "Upload or HTTP write requires destination review"
+    },
+    {
+      "rule": "ASA003",
+      "severity": "high",
+      "path": "skills/.curated/cloudflare-deploy/references/wrangler/gotchas.md",
+      "line": 166,
+      "kind": "documentation",
+      "message": "Recursive deletion requires path and scope review"
+    },
+    {
+      "rule": "ASA003",
+      "severity": "high",
+      "path": "skills/.curated/migrate-to-codex/scripts/cli.py",
+      "line": 890,
+      "kind": "source_or_config",
+      "message": "Recursive deletion requires path and scope review"
+    },
+    {
+      "rule": "ASA001",
+      "severity": "high",
+      "path": "skills/.curated/render-deploy/SKILL.md",
+      "line": 111,
+      "kind": "documentation",
+      "message": "Remote content piped into an interpreter"
+    },
+    {
+      "rule": "ASA007",
+      "severity": "medium",
+      "path": "skills/.curated/security-best-practices/references/javascript-express-web-server-security.md",
+      "line": 780,
+      "kind": "documentation",
+      "message": "Shell execution or dynamically evaluated code"
+    },
+    {
+      "rule": "ASA007",
+      "severity": "medium",
+      "path": "skills/.curated/security-best-practices/references/javascript-express-web-server-security.md",
+      "line": 787,
+      "kind": "documentation",
+      "message": "Shell execution or dynamically evaluated code"
+    },
+    {
+      "rule": "ASA007",
+      "severity": "medium",
+      "path": "skills/.curated/security-best-practices/references/javascript-express-web-server-security.md",
+      "line": 788,
+      "kind": "documentation",
+      "message": "Shell execution or dynamically evaluated code"
+    },
+    {
+      "rule": "ASA007",
+      "severity": "medium",
+      "path": "skills/.curated/security-best-practices/references/javascript-express-web-server-security.md",
+      "line": 794,
+      "kind": "documentation",
+      "message": "Shell execution or dynamically evaluated code"
+    },
+    {
+      "rule": "ASA007",
+      "severity": "medium",
+      "path": "skills/.curated/security-best-practices/references/javascript-general-web-frontend-security.md",
+      "line": 219,
+      "kind": "documentation",
+      "message": "Shell execution or dynamically evaluated code"
+    },
+    {
+      "rule": "ASA007",
+      "severity": "medium",
+      "path": "skills/.curated/security-best-practices/references/javascript-general-web-frontend-security.md",
+      "line": 227,
+      "kind": "documentation",
+      "message": "Shell execution or dynamically evaluated code"
+    },
+    {
+      "rule": "ASA007",
+      "severity": "medium",
+      "path": "skills/.curated/security-best-practices/references/javascript-general-web-frontend-security.md",
+      "line": 233,
+      "kind": "documentation",
+      "message": "Shell execution or dynamically evaluated code"
+    },
+    {
+      "rule": "ASA007",
+      "severity": "medium",
+      "path": "skills/.curated/security-best-practices/references/javascript-general-web-frontend-security.md",
+      "line": 245,
+      "kind": "documentation",
+      "message": "Shell execution or dynamically evaluated code"
+    },
+    {
+      "rule": "ASA007",
+      "severity": "medium",
+      "path": "skills/.curated/security-best-practices/references/javascript-general-web-frontend-security.md",
+      "line": 645,
+      "kind": "documentation",
+      "message": "Shell execution or dynamically evaluated code"
+    },
+    {
+      "rule": "ASA007",
+      "severity": "medium",
+      "path": "skills/.curated/security-best-practices/references/javascript-typescript-nextjs-web-server-security.md",
+      "line": 866,
+      "kind": "documentation",
+      "message": "Shell execution or dynamically evaluated code"
+    },
+    {
+      "rule": "ASA007",
+      "severity": "medium",
+      "path": "skills/.curated/security-best-practices/references/javascript-typescript-nextjs-web-server-security.md",
+      "line": 892,
+      "kind": "documentation",
+      "message": "Shell execution or dynamically evaluated code"
+    },
+    {
+      "rule": "ASA007",
+      "severity": "medium",
+      "path": "skills/.curated/security-best-practices/references/javascript-typescript-nextjs-web-server-security.md",
+      "line": 897,
+      "kind": "documentation",
+      "message": "Shell execution or dynamically evaluated code"
+    },
+    {
+      "rule": "ASA007",
+      "severity": "medium",
+      "path": "skills/.curated/security-best-practices/references/javascript-typescript-react-web-frontend-security.md",
+      "line": 775,
+      "kind": "documentation",
+      "message": "Shell execution or dynamically evaluated code"
+    },
+    {
+      "rule": "ASA007",
+      "severity": "medium",
+      "path": "skills/.curated/security-best-practices/references/javascript-typescript-react-web-frontend-security.md",
+      "line": 884,
+      "kind": "documentation",
+      "message": "Shell execution or dynamically evaluated code"
+    },
+    {
+      "rule": "ASA007",
+      "severity": "medium",
+      "path": "skills/.curated/security-best-practices/references/python-django-web-server-security.md",
+      "line": 499,
+      "kind": "documentation",
+      "message": "Shell execution or dynamically evaluated code"
+    },
+    {
+      "rule": "ASA007",
+      "severity": "medium",
+      "path": "skills/.curated/security-best-practices/references/python-django-web-server-security.md",
+      "line": 505,
+      "kind": "documentation",
+      "message": "Shell execution or dynamically evaluated code"
+    },
+    {
+      "rule": "ASA007",
+      "severity": "medium",
+      "path": "skills/.curated/security-best-practices/references/python-django-web-server-security.md",
+      "line": 506,
+      "kind": "documentation",
+      "message": "Shell execution or dynamically evaluated code"
+    },
+    {
+      "rule": "ASA007",
+      "severity": "medium",
+      "path": "skills/.curated/security-best-practices/references/python-django-web-server-security.md",
+      "line": 510,
+      "kind": "documentation",
+      "message": "Shell execution or dynamically evaluated code"
+    },
+    {
+      "rule": "ASA007",
+      "severity": "medium",
+      "path": "skills/.curated/security-best-practices/references/python-fastapi-web-server-security.md",
+      "line": 780,
+      "kind": "documentation",
+      "message": "Shell execution or dynamically evaluated code"
+    },
+    {
+      "rule": "ASA007",
+      "severity": "medium",
+      "path": "skills/.curated/security-best-practices/references/python-fastapi-web-server-security.md",
+      "line": 785,
+      "kind": "documentation",
+      "message": "Shell execution or dynamically evaluated code"
+    },
+    {
+      "rule": "ASA007",
+      "severity": "medium",
+      "path": "skills/.curated/security-best-practices/references/python-fastapi-web-server-security.md",
+      "line": 786,
+      "kind": "documentation",
+      "message": "Shell execution or dynamically evaluated code"
+    },
+    {
+      "rule": "ASA007",
+      "severity": "medium",
+      "path": "skills/.curated/security-best-practices/references/python-fastapi-web-server-security.md",
+      "line": 791,
+      "kind": "documentation",
+      "message": "Shell execution or dynamically evaluated code"
+    },
+    {
+      "rule": "ASA007",
+      "severity": "medium",
+      "path": "skills/.curated/security-best-practices/references/python-fastapi-web-server-security.md",
+      "line": 944,
+      "kind": "documentation",
+      "message": "Shell execution or dynamically evaluated code"
+    },
+    {
+      "rule": "ASA007",
+      "severity": "medium",
+      "path": "skills/.curated/security-best-practices/references/python-flask-web-server-security.md",
+      "line": 500,
+      "kind": "documentation",
+      "message": "Shell execution or dynamically evaluated code"
+    },
+    {
+      "rule": "ASA007",
+      "severity": "medium",
+      "path": "skills/.curated/security-best-practices/references/python-flask-web-server-security.md",
+      "line": 506,
+      "kind": "documentation",
+      "message": "Shell execution or dynamically evaluated code"
+    },
+    {
+      "rule": "ASA007",
+      "severity": "medium",
+      "path": "skills/.curated/security-best-practices/references/python-flask-web-server-security.md",
+      "line": 507,
+      "kind": "documentation",
+      "message": "Shell execution or dynamically evaluated code"
+    },
+    {
+      "rule": "ASA007",
+      "severity": "medium",
+      "path": "skills/.curated/security-best-practices/references/python-flask-web-server-security.md",
+      "line": 511,
+      "kind": "documentation",
+      "message": "Shell execution or dynamically evaluated code"
+    },
+    {
+      "rule": "ASA007",
+      "severity": "medium",
+      "path": "skills/.curated/security-best-practices/references/python-flask-web-server-security.md",
+      "line": 657,
+      "kind": "documentation",
+      "message": "Shell execution or dynamically evaluated code"
+    },
+    {
+      "rule": "ASA001",
+      "severity": "high",
+      "path": "skills/.curated/sentry/SKILL.md",
+      "line": 18,
+      "kind": "documentation",
+      "message": "Remote content piped into an interpreter"
+    },
+    {
+      "rule": "ASA005",
+      "severity": "medium",
+      "path": "skills/.curated/speech/SKILL.md",
+      "line": 3,
+      "kind": "documentation",
+      "message": "Reference to credentials or sensitive local files"
+    },
+    {
+      "rule": "ASA005",
+      "severity": "medium",
+      "path": "skills/.curated/speech/SKILL.md",
+      "line": 47,
+      "kind": "documentation",
+      "message": "Reference to credentials or sensitive local files"
+    },
+    {
+      "rule": "ASA005",
+      "severity": "medium",
+      "path": "skills/.curated/speech/SKILL.md",
+      "line": 51,
+      "kind": "documentation",
+      "message": "Reference to credentials or sensitive local files"
+    },
+    {
+      "rule": "ASA005",
+      "severity": "medium",
+      "path": "skills/.curated/speech/SKILL.md",
+      "line": 64,
+      "kind": "documentation",
+      "message": "Reference to credentials or sensitive local files"
+    },
+    {
+      "rule": "ASA005",
+      "severity": "medium",
+      "path": "skills/.curated/speech/references/cli.md",
+      "line": 10,
+      "kind": "documentation",
+      "message": "Reference to credentials or sensitive local files"
+    },
+    {
+      "rule": "ASA005",
+      "severity": "medium",
+      "path": "skills/.curated/speech/references/cli.md",
+      "line": 26,
+      "kind": "documentation",
+      "message": "Reference to credentials or sensitive local files"
+    },
+    {
+      "rule": "ASA005",
+      "severity": "medium",
+      "path": "skills/.curated/speech/scripts/text_to_speech.py",
+      "line": 56,
+      "kind": "source_or_config",
+      "message": "Reference to credentials or sensitive local files"
+    },
+    {
+      "rule": "ASA005",
+      "severity": "medium",
+      "path": "skills/.curated/speech/scripts/text_to_speech.py",
+      "line": 57,
+      "kind": "source_or_config",
+      "message": "Reference to credentials or sensitive local files"
+    },
+    {
+      "rule": "ASA005",
+      "severity": "medium",
+      "path": "skills/.curated/speech/scripts/text_to_speech.py",
+      "line": 60,
+      "kind": "source_or_config",
+      "message": "Reference to credentials or sensitive local files"
+    },
+    {
+      "rule": "ASA005",
+      "severity": "medium",
+      "path": "skills/.curated/speech/scripts/text_to_speech.py",
+      "line": 62,
+      "kind": "source_or_config",
+      "message": "Reference to credentials or sensitive local files"
+    },
+    {
+      "rule": "ASA005",
+      "severity": "medium",
+      "path": "skills/.curated/transcribe/SKILL.md",
+      "line": 13,
+      "kind": "documentation",
+      "message": "Reference to credentials or sensitive local files"
+    },
+    {
+      "rule": "ASA005",
+      "severity": "medium",
+      "path": "skills/.curated/transcribe/SKILL.md",
+      "line": 40,
+      "kind": "documentation",
+      "message": "Reference to credentials or sensitive local files"
+    },
+    {
+      "rule": "ASA005",
+      "severity": "medium",
+      "path": "skills/.curated/transcribe/scripts/transcribe_diarize.py",
+      "line": 34,
+      "kind": "source_or_config",
+      "message": "Reference to credentials or sensitive local files"
+    },
+    {
+      "rule": "ASA005",
+      "severity": "medium",
+      "path": "skills/.curated/transcribe/scripts/transcribe_diarize.py",
+      "line": 35,
+      "kind": "source_or_config",
+      "message": "Reference to credentials or sensitive local files"
+    },
+    {
+      "rule": "ASA005",
+      "severity": "medium",
+      "path": "skills/.curated/transcribe/scripts/transcribe_diarize.py",
+      "line": 38,
+      "kind": "source_or_config",
+      "message": "Reference to credentials or sensitive local files"
+    },
+    {
+      "rule": "ASA005",
+      "severity": "medium",
+      "path": "skills/.curated/transcribe/scripts/transcribe_diarize.py",
+      "line": 40,
+      "kind": "source_or_config",
+      "message": "Reference to credentials or sensitive local files"
+    },
+    {
+      "rule": "ASA003",
+      "severity": "high",
+      "path": "skills/.curated/vercel-deploy/scripts/deploy.sh",
+      "line": 175,
+      "kind": "source_or_config",
+      "message": "Recursive deletion requires path and scope review"
+    },
+    {
+      "rule": "ASA008",
+      "severity": "medium",
+      "path": "skills/.curated/vercel-deploy/scripts/deploy.sh",
+      "line": 239,
+      "kind": "source_or_config",
+      "message": "Upload or HTTP write requires destination review"
+    },
+    {
+      "rule": "ASA005",
+      "severity": "medium",
+      "path": "skills/.system/imagegen/SKILL.md",
+      "line": 14,
+      "kind": "documentation",
+      "message": "Reference to credentials or sensitive local files"
+    },
+    {
+      "rule": "ASA005",
+      "severity": "medium",
+      "path": "skills/.system/imagegen/SKILL.md",
+      "line": 15,
+      "kind": "documentation",
+      "message": "Reference to credentials or sensitive local files"
+    },
+    {
+      "rule": "ASA005",
+      "severity": "medium",
+      "path": "skills/.system/imagegen/SKILL.md",
+      "line": 26,
+      "kind": "documentation",
+      "message": "Reference to credentials or sensitive local files"
+    },
+    {
+      "rule": "ASA005",
+      "severity": "medium",
+      "path": "skills/.system/imagegen/SKILL.md",
+      "line": 257,
+      "kind": "documentation",
+      "message": "Reference to credentials or sensitive local files"
+    },
+    {
+      "rule": "ASA005",
+      "severity": "medium",
+      "path": "skills/.system/imagegen/SKILL.md",
+      "line": 258,
+      "kind": "documentation",
+      "message": "Reference to credentials or sensitive local files"
+    },
+    {
+      "rule": "ASA005",
+      "severity": "medium",
+      "path": "skills/.system/imagegen/SKILL.md",
+      "line": 263,
+      "kind": "documentation",
+      "message": "Reference to credentials or sensitive local files"
+    },
+    {
+      "rule": "ASA005",
+      "severity": "medium",
+      "path": "skills/.system/imagegen/references/cli.md",
+      "line": 12,
+      "kind": "documentation",
+      "message": "Reference to credentials or sensitive local files"
+    },
+    {
+      "rule": "ASA005",
+      "severity": "medium",
+      "path": "skills/.system/imagegen/references/cli.md",
+      "line": 39,
+      "kind": "documentation",
+      "message": "Reference to credentials or sensitive local files"
+    },
+    {
+      "rule": "ASA005",
+      "severity": "medium",
+      "path": "skills/.system/imagegen/scripts/image_gen.py",
+      "line": 63,
+      "kind": "source_or_config",
+      "message": "Reference to credentials or sensitive local files"
+    },
+    {
+      "rule": "ASA005",
+      "severity": "medium",
+      "path": "skills/.system/imagegen/scripts/image_gen.py",
+      "line": 64,
+      "kind": "source_or_config",
+      "message": "Reference to credentials or sensitive local files"
+    },
+    {
+      "rule": "ASA005",
+      "severity": "medium",
+      "path": "skills/.system/imagegen/scripts/image_gen.py",
+      "line": 67,
+      "kind": "source_or_config",
+      "message": "Reference to credentials or sensitive local files"
+    },
+    {
+      "rule": "ASA005",
+      "severity": "medium",
+      "path": "skills/.system/imagegen/scripts/image_gen.py",
+      "line": 69,
+      "kind": "source_or_config",
+      "message": "Reference to credentials or sensitive local files"
+    },
+    {
+      "rule": "ASA005",
+      "severity": "medium",
+      "path": "skills/.system/skill-installer/SKILL.md",
+      "line": 55,
+      "kind": "documentation",
+      "message": "Reference to credentials or sensitive local files"
+    },
+    {
+      "rule": "ASA005",
+      "severity": "medium",
+      "path": "skills/.system/skill-installer/scripts/github_utils.py",
+      "line": 12,
+      "kind": "source_or_config",
+      "message": "Reference to credentials or sensitive local files"
+    },
+    {
+      "rule": "ASA003",
+      "severity": "high",
+      "path": "skills/.system/skill-installer/scripts/install-skill-from-github.py",
+      "line": 298,
+      "kind": "source_or_config",
+      "message": "Recursive deletion requires path and scope review"
+    }
+  ],
+  "skipped": [],
+  "incomplete": false,
+  "bytes_read": 4518697,
+  "source": {
+    "repository": "openai/skills",
+    "directory": "openai-skills",
+    "commit": "49f948faa9258a0c61caceaf225e179651397431"
+  }
+}

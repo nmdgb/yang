@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "agent-skill-audit"
+version = "0.2.0"
+description = "Offline review hints for AI agent skills and plugin scripts"
+readme = "README.md"
+requires-python = ">=3.10"
+license = {text = "MIT"}
+dependencies = []
+
+[project.scripts]
+agent-skill-audit = "agent_skill_audit:main"
+
+[tool.setuptools]
+py-modules = ["agent_skill_audit"]
+
+[project.urls]
+Repository = "https://github.com/nmdgb/yang"

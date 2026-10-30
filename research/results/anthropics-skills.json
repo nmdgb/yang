@@ -1,0 +1,145 @@
+{
+  "tool": "agent-skill-audit",
+  "version": "0.2.0",
+  "files_scanned": 263,
+  "entries_seen": 543,
+  "excluded_entries": 184,
+  "findings": [
+    {
+      "rule": "ASA005",
+      "severity": "medium",
+      "path": "skills/claude-api/python/managed-agents/README.md",
+      "line": 120,
+      "kind": "documentation",
+      "message": "Reference to credentials or sensitive local files"
+    },
+    {
+      "rule": "ASA005",
+      "severity": "medium",
+      "path": "skills/claude-api/shared/claude-platform-on-aws.md",
+      "line": 49,
+      "kind": "documentation",
+      "message": "Reference to credentials or sensitive local files"
+    },
+    {
+      "rule": "ASA005",
+      "severity": "medium",
+      "path": "skills/claude-api/shared/managed-agents-environments.md",
+      "line": 179,
+      "kind": "documentation",
+      "message": "Reference to credentials or sensitive local files"
+    },
+    {
+      "rule": "ASA005",
+      "severity": "medium",
+      "path": "skills/claude-api/shared/managed-agents-environments.md",
+      "line": 219,
+      "kind": "documentation",
+      "message": "Reference to credentials or sensitive local files"
+    },
+    {
+      "rule": "ASA001",
+      "severity": "high",
+      "path": "skills/claude-api/shared/managed-agents-onboarding-from-url.md",
+      "line": 30,
+      "kind": "documentation",
+      "message": "Remote content piped into an interpreter"
+    },
+    {
+      "rule": "ASA005",
+      "severity": "medium",
+      "path": "skills/claude-api/shared/managed-agents-onboarding-from-url.md",
+      "line": 249,
+      "kind": "documentation",
+      "message": "Reference to credentials or sensitive local files"
+    },
+    {
+      "rule": "ASA003",
+      "severity": "high",
+      "path": "skills/claude-api/shared/managed-agents-tools.md",
+      "line": 144,
+      "kind": "documentation",
+      "message": "Recursive deletion requires path and scope review"
+    },
+    {
+      "rule": "ASA004",
+      "severity": "medium",
+      "path": "skills/claude-api/shared/model-migration.md",
+      "line": 863,
+      "kind": "documentation",
+      "message": "Instruction attempts to override prior instructions"
+    },
+    {
+      "rule": "ASA005",
+      "severity": "medium",
+      "path": "skills/claude-api/shared/evals/report/build-report-lite.mjs",
+      "line": 28,
+      "kind": "source_or_config",
+      "message": "Reference to credentials or sensitive local files"
+    },
+    {
+      "rule": "ASA005",
+      "severity": "medium",
+      "path": "skills/claude-api/shared/evals/report/runner-scaffold.mjs",
+      "line": 112,
+      "kind": "source_or_config",
+      "message": "Reference to credentials or sensitive local files"
+    },
+    {
+      "rule": "ASA005",
+      "severity": "medium",
+      "path": "skills/claude-api/typescript/managed-agents/README.md",
+      "line": 127,
+      "kind": "documentation",
+      "message": "Reference to credentials or sensitive local files"
+    },
+    {
+      "rule": "ASA005",
+      "severity": "medium",
+      "path": "skills/mcp-builder/reference/evaluation.md",
+      "line": 567,
+      "kind": "documentation",
+      "message": "Reference to credentials or sensitive local files"
+    },
+    {
+      "rule": "ASA003",
+      "severity": "high",
+      "path": "skills/mcp-builder/reference/node_mcp_server.md",
+      "line": 543,
+      "kind": "documentation",
+      "message": "Recursive deletion requires path and scope review"
+    },
+    {
+      "rule": "ASA003",
+      "severity": "high",
+      "path": "skills/web-artifacts-builder/scripts/bundle-artifact.sh",
+      "line": 36,
+      "kind": "source_or_config",
+      "message": "Recursive deletion requires path and scope review"
+    },
+    {
+      "rule": "ASA007",
+      "severity": "medium",
+      "path": "skills/webapp-testing/scripts/with_server.py",
+      "line": 68,
+      "kind": "source_or_config",
+      "message": "Shell execution or dynamically evaluated code"
+    },
+    {
+      "rule": "ASA007",
+      "severity": "medium",
+      "path": "skills/webapp-testing/scripts/with_server.py",
+      "line": 71,
+      "kind": "source_or_config",
+      "message": "Shell execution or dynamically evaluated code"
+    }
+  ],
+  "skipped": [],
+  "incomplete": false,
+  "bytes_read": 3414846,
+  "source": {
+    "repository": "anthropics/skills",
+    "directory": "anthropics-skills",
+    "commit": "ca45fc496a3436251f191354091d557da31c15b5"
+  }
+}

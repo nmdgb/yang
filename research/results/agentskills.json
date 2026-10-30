@@ -1,0 +1,16 @@
+{
+  "tool": "agent-skill-audit",
+  "version": "0.2.0",
+  "files_scanned": 34,
+  "entries_seen": 199,
+  "excluded_entries": 106,
+  "findings": [],
+  "skipped": [],
+  "incomplete": false,
+  "bytes_read": 169721,
+  "source": {
+    "repository": "agentskills/agentskills",
+    "directory": "agentskills",
+    "commit": "69ef37e9424c0a7ea9dd2293b559e43ec8176379"
+  }
+}

@@ -1,0 +1,50 @@
+[
+  {
+    "repository": "openai/skills",
+    "directory": "openai-skills",
+    "commit": "49f948faa9258a0c61caceaf225e179651397431",
+    "scanner_version": "0.2.0",
+    "files_scanned": 704,
+    "findings": 83,
+    "by_rule": {
+      "ASA001": 3,
+      "ASA003": 4,
+      "ASA005": 43,
+      "ASA007": 29,
+      "ASA008": 4
+    },
+    "incomplete": false,
+    "skipped": [],
+    "bytes_read": 4518697
+  },
+  {
+    "repository": "anthropics/skills",
+    "directory": "anthropics-skills",
+    "commit": "ca45fc496a3436251f191354091d557da31c15b5",
+    "scanner_version": "0.2.0",
+    "files_scanned": 263,
+    "findings": 16,
+    "by_rule": {
+      "ASA001": 1,
+      "ASA003": 3,
+      "ASA004": 1,
+      "ASA005": 9,
+      "ASA007": 2
+    },
+    "incomplete": false,
+    "skipped": [],
+    "bytes_read": 3414846
+  },
+  {
+    "repository": "agentskills/agentskills",
+    "directory": "agentskills",
+    "commit": "69ef37e9424c0a7ea9dd2293b559e43ec8176379",
+    "scanner_version": "0.2.0",
+    "files_scanned": 34,
+    "findings": 0,
+    "by_rule": {},
+    "incomplete": false,
+    "skipped": [],
+    "bytes_read": 169721
+  }
+]
